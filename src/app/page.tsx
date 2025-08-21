@@ -1,4 +1,3 @@
-import Banner from "@/components/Bennar";
 import Footer from "@/components/Footer";
 import Latest from "@/components/Latest";
 import SwiperSlideComponent from "@/components/SwiperSlide";
