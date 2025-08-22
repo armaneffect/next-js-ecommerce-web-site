@@ -19,6 +19,8 @@ export const metadata = {
   },
 };
 
+// About Us Section
+
 const AboutUsSection: React.FC = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">

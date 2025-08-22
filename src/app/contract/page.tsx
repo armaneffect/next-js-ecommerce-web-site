@@ -17,6 +17,8 @@ export const metadata = {
     },
 };
 
+// Contact Section
+
 const ContractSection: React.FC = () => {
 
 
