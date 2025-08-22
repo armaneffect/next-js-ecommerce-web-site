@@ -1,6 +1,26 @@
 import React from 'react';
 
+export const metadata = {
+    title: 'Contact Us',
+    description: 'Get in touch with us for any inquiries or project discussions.',
+    openGraph: {
+        title: 'Contact Us',
+        description: 'Get in touch with us for any inquiries or project discussions.',
+        url: 'https://armaneffect.vercel.app/contact',
+        locale: 'en_US',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Contact Us',
+        description: 'Get in touch with us for any inquiries or project discussions.',
+    },
+};
+
 const ContractSection: React.FC = () => {
+
+
+
   return (
     <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-xl mx-auto">

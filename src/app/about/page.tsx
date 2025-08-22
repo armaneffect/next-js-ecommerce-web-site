@@ -2,6 +2,23 @@ import Image from 'next/image';
 import React from 'react';
 import about from '@/public/about.jpg'
 
+export const metadata = {
+  title: 'About Us',
+  description: 'Learn more about our company and team.',
+  openGraph: {
+    title: 'About Us',
+    description: 'Learn more about our company and team.',
+    url: 'https://armaneffect.vercel.app/about',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us',
+    description: 'Learn more about our company and team.',
+  },
+};
+
 const AboutUsSection: React.FC = () => {
   return (
     <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">

@@ -8,6 +8,23 @@ type PageProps = {
   searchParams: Promise<{ search?: string; category?: string }>;
 };
 
+export const metadata = {
+  title: 'Products',
+  description: 'Browse our collection of products.',
+  openGraph: {
+    title: 'Products',
+    description: 'Browse our collection of products.',
+    url: 'https://armaneffect.vercel.app/products',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Products',
+    description: 'Browse our collection of products.',
+  },
+};
+
 const Newspage = async ({ searchParams }: PageProps) => {
   // 🔥 এখানে একবার await করতে হবে
   const { search, category } = await searchParams;
