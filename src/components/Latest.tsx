@@ -1,7 +1,8 @@
 import React from 'react'
-import NewsCard from './NewsCard'
-import { Product } from '@/types/news';
+import { Product } from '@/types/productTypes';
 import ProductCard from './ProductCart';
+
+//=====
 
 const Latest = async () => {
   const res = await fetch('https://dummyjson.com/products', {

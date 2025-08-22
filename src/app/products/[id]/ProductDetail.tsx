@@ -1,5 +1,5 @@
 "use client"
-import { Product } from '@/types/news';
+import { Product } from '@/types/productTypes';
 import Image from 'next/image';
 import React, { useState } from 'react';
 

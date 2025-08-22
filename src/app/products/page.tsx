@@ -2,7 +2,7 @@ import React from 'react';
 import NewsSearch from './NewsSearch';
 import Category from '@/components/Category';
 import ProductCard from '@/components/ProductCart';
-import { Product } from '@/types/news';
+import { Product } from '@/types/productTypes';
 
 type PageProps = {
   searchParams: Promise<{ search?: string; category?: string }>;

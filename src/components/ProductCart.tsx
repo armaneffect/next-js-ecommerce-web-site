@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { Product } from '@/types/news';
+import { Product } from '@/types/productTypes';
 import Link from 'next/link';
 
 
