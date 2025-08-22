@@ -7,7 +7,7 @@ import Link from 'next/link';
 // Star icon component for ratings
 const StarIcon = ({ filled }: { filled: boolean }) => (
     <svg
-        className={`w-5 h-5 ${filled ? 'text-yellow-400' : 'text-gray-300'}`}
+        className={`w-4 h-4 ${filled ? 'text-yellow-400' : 'text-gray-300'}`}
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
@@ -46,13 +46,13 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
 
                     {/* Product Details */}
                     <div className="p-4">
-                        <h3 className="  text-lg font-medium mb-2 line-clamp-2 leading-tight">
+                        <h3 className="  md:text-lg text-sm font-medium mb-2 line-clamp-2 leading-tight">
                             {description}
                         </h3>
 
                         {/* Price Section */}
                         <div className="flex items-baseline space-x-2 mb-2">
-                            <p className="text-2xl font-bold text-orange-500">৳{price}</p>
+                            <p className="text-xl font-bold text-orange-500">৳{price}</p>
 
                         </div>
 
