@@ -6,13 +6,10 @@ import { Switch } from "@/components/ui/switch";
 import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
+
+
   const pathname = usePathname();
-  const [isDark, setIsDark] = useState(()=>{
-    if(localStorage.getItem("theme") === "dark") {
-      return true;
-    }
-    return false;
-  });
+  const [isDark, setIsDark] = useState(false);
 
   // পেজ লোড হলে localStorage থেকে থিম লোড করা
   useEffect(() => {
