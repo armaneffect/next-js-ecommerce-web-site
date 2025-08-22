@@ -58,7 +58,7 @@ const Navbar = () => {
               </div>
             </ul>
           </div>
-          <Link href="/" className=" text-2xl text-orange-500">Daraz</Link>
+          <Link href="/" className=" text-2xl text-orange-500">ShopSizzle</Link>
         </div>
 
         {/* Navbar Center (Desktop Menu) */}
